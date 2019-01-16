@@ -24,4 +24,4 @@ PRODUCT_NAME := choose_kagura
 PRODUCT_MODEL := Xperia XZ
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := none
+TARGET_OTA_ASSERT_DEVICE := kagura
