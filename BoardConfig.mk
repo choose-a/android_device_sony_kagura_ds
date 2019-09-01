@@ -12,7 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/tone-common/PlatformConfig.mk
+include device/sony/tone-common/BoardConfigCommon.mk
+
+TARGET_KERNEL_CONFIG := kagura_defconfig
 
 TARGET_BOOTLOADER_BOARD_NAME := unknown
 ifneq (,$(filter %f8331,$(TARGET_PRODUCT)))
@@ -31,8 +33,6 @@ WIFI_BUS := PCIE
 
 # NFC
 NXP_CHIP_FW_TYPE := PN547C2
-
-BOARD_KERNEL_CMDLINE += androidboot.hardware=kagura
 
 # Partition information
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
