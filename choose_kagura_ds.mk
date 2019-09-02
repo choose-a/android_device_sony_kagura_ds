@@ -16,11 +16,11 @@
 TARGET_BOOTANIMATION_SIZE := 1080x608
 
 # Inherit device parts
-$(call inherit-product, device/sony/kagura/aosp_f8331.mk)
+$(call inherit-product, device/sony/kagura_ds/aosp_f8332.mk)
 
 # Override Product Name
-PRODUCT_NAME := choose_kagura
+PRODUCT_NAME := choose_kagura_ds
 PRODUCT_MODEL := Xperia XZ
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := kagura
+TARGET_OTA_ASSERT_DEVICE := kagura,kagura_ds

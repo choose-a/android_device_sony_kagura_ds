@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Device path
-DEVICE_PATH := device/sony/kagura/rootdir
+DEVICE_PATH := device/sony/kagura_ds/rootdir
 
 DEVICE_PACKAGE_OVERLAYS += \
-    device/sony/kagura/overlay
+    device/sony/kagura_ds/overlay
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \

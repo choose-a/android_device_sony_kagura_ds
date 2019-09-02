@@ -12,4 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/choose_kagura.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/choose_kagura_ds.mk

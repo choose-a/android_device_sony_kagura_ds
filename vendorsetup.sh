@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo choose_kagura-userdebug
+add_lunch_combo choose_kagura_ds-userdebug
