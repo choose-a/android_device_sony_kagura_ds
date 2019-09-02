@@ -43,4 +43,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 23857184768
 
 TARGET_USES_CASH_EXTENSION := true
 
+BOARD_USE_ENFORCING_SELINUX := false
+
 #TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
