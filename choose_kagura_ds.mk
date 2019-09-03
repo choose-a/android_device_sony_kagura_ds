@@ -18,6 +18,9 @@ TARGET_BOOTANIMATION_SIZE := 1080x608
 # Inherit device parts
 $(call inherit-product, device/sony/kagura_ds/aosp_f8332.mk)
 
+# Inherit choose-a vendor
+$(call inherit-product, vendor/choose-a/config/common.mk)
+
 # Override Product Name
 PRODUCT_NAME := choose_kagura_ds
 PRODUCT_MODEL := Xperia XZ
