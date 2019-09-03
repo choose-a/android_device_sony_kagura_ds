@@ -67,6 +67,10 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=480 \
     ro.usb.pid_suffix=1E7
 
+# Dual sim
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/android.hw.radio_ds.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/vendor.hw.radio_ds.xml
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/tone-common/tone.mk)
 
