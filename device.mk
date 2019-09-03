@@ -68,16 +68,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/firmware/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd.cal
 
-# Device Init
-PRODUCT_PACKAGES += \
-    fstab.kagura \
-    init.recovery.kagura \
-    init.kagura
-
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.kagura
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
@@ -86,12 +76,6 @@ PRODUCT_PACKAGES += \
 # SAR
 PRODUCT_PACKAGES += \
     TransPowerSensors
-
-# Camera Augmented Sensing Helper
-PRODUCT_PACKAGES += \
-   libpolyreg \
-   cashsvr \
-   libcashctl
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi

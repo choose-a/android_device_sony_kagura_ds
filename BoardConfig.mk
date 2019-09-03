@@ -26,9 +26,6 @@ TARGET_BOOTLOADER_BOARD_NAME := F8331
 $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
 endif
 
-# Platform
-PRODUCT_PLATFORM := tone
-
 WIFI_BUS := PCIE
 
 # NFC
