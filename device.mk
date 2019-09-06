@@ -81,5 +81,4 @@ $(call inherit-product-if-exists, vendor/broadcom/wlan/bcmdhd/firmware/bcm4359/d
 $(call inherit-product-if-exists, vendor/nxp/nxp-vendor.mk)
 
 # include board vendor blobs
-$(call inherit-product-if-exists, vendor/sony/kagura/kagura-partial.mk)
-$(call inherit-product-if-exists, vendor/sony/generic/generic-partial.mk)
+$(call inherit-product-if-exists, vendor/sony/kagura/kagura-vendor.mk)

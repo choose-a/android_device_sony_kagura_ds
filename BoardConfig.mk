@@ -41,3 +41,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 23857184768
 BOARD_USE_ENFORCING_SELINUX := false
 
 #TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+
+# Inherit from the proprietary version
+-include vendor/sony/kagura/BoardConfigVendor.mk
